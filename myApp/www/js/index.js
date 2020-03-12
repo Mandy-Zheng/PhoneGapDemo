@@ -127,28 +127,25 @@ var quotes=["When you have a dream, you've got to grab it and never let go.",
 "Embrace the glorious mess that you are.",
 "Clouds come floating into my life, no longer to carry rain or usher storm, but to add color to my sunset sky."];
 
-links = ["https://wallpaperaccess.com/full/1089656.png",
-        "https://pbs.twimg.com/profile_images/723624968056004608/euvJA0E5_400x400.jpg",
-        "https://66.media.tumblr.com/7929ab1a7b881077a5a2d2666971b5dd/tumblr_oyniv8lEr11t3fwweo1_400.jpg",
-        "https://66.media.tumblr.com/776126d3e82c3f7753170b8cca850f1d/5eaa412e40434c87-8f/s250x400/ba182deb0c473c4f67959b77dce1ed77ffade871.jpg",
-        "https://i.pinimg.com/originals/98/7f/4c/987f4ce0883a250d3ca2b19e976c694d.jpg",
-        "https://36.media.tumblr.com/07ca4c534807c7a33b7a0a14f1d03049/tumblr_nj442kS24i1rksuw7o3_1280.jpg",
-        "https://66.media.tumblr.com/5f5564af393396afc0990dcf306df4ab/tumblr_p97lzwroO61xr46bko4_250.jpg",
-        "https://cdn130.picsart.com/280547459020201.jpg?r1024x1024",
-        "https://66.media.tumblr.com/47b1b708f814af5f81b2cef66587d4f1/tumblr_oj0l4h4pnN1vmqiyho1_250.jpg",
-        "https://data.whicdn.com/images/320784246/original.jpg?t=1539452551",
-        "https://www.kindpng.com/picc/m/412-4122691_blue-pastel-tumblr-heart-hearts-aesthetic-aesthetics-instagram.png",
-        "https://wallpaperaccess.com/full/1220966.jpg"];
-
-fonts = ["courier new", "Source Sans Pro", "Jazz LET", "Trattatello", "Marker Felt", "Blippo", "Luminari"];
+links = ["p1.png",
+        "p2.jpg",
+        "p3.jpg",
+        "p4.jpg",
+        "p5.jpg",
+        "p6.jpg",
+        "p7.jpg",
+        "p8.jpg",
+        "p9.jpg",
+        "p10.jpg",
+        "p11.jpg",
+        "p12.jpg"];
 
 var num = -1;
-var fnum = -1;
 
 var randBackground = function() {
   num = (num + 1) % 12;
   var url = links[num];
-  document.body.style.backgroundImage = "url(\'"+url+"\')";
+  document.body.style.backgroundImage = "url(\'img/"+url+"\')";
 };
 
 
