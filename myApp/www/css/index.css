@@ -1,0 +1,17 @@
+body{
+  text-align: center;
+  font-size: 18px;
+  font-family: courier;
+  position: absolute;
+  top:250px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+button{
+  border-radius: 12px;
+}
